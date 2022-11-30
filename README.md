@@ -14,7 +14,7 @@ press :
 
 Add the following 
 %s;\n; ;g
-Press enter.
+and press enter
 
 press : again
 
