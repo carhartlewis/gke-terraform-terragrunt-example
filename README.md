@@ -9,7 +9,7 @@
 
 1. Create a secret called GH_TERRAFORM, use the gcloud util to generate a key.json file from your service account and run this to format it correctly:
 
-```vi gcp-credential.json
+vi gcp-credential.json
 press :
 
 Add the following 
@@ -18,7 +18,7 @@ Press enter.
 
 press : again
 
-type wq!```
+type wq!
 
 2. Add two secrets, AWS_ACCESS_KEY and AWS_SECRET_ACCESS_KEY with your AWS IAM credentials.
 
