@@ -33,5 +33,5 @@
 ### How to remove an instance
 
 1. Clone the git repository
-2. Move to the correct directory (e.g. ./production/instance-name.fieldtwin.com)
+2. Move to the correct directory (e.g. ./production/instance-name.example.com)
 3. Run ```terragrunt destory ```
