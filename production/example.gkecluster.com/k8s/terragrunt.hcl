@@ -6,6 +6,8 @@ include {
 	path = find_in_parent_folders()
 }
 
+# Change these to whatever you like!
+
 inputs = {
 	env_name = "example-gkecluster-com"
 	node_pool_name = "example-gkecluster-com-nodepool"
