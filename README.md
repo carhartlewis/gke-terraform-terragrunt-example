@@ -5,6 +5,23 @@
 - modules - contains terraform configuration files to build the Kubernetes cluster.
 - production - contains all of our production instances
 
+### GitHub Action Secrets
+
+1. Create a secret called GH_TERRAFORM, use the gcloud util to generate a key.json file from your service account and run this to format it correctly:
+
+```vi gcp-credential.json
+press :
+
+Add the following 
+%s;\n; ;g
+Press enter.
+
+press : again
+
+type wq!```
+
+2. Add two secrets, AWS_ACCESS_KEY and AWS_SECRET_ACCESS_KEY with your AWS IAM credentials.
+
 ### How to add a new instance
 
 1.  Create a new branch, typically call it the name of the new instance e.g. `instance-name.example.com`
