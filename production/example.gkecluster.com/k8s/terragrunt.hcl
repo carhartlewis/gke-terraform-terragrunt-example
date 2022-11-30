@@ -7,7 +7,7 @@ include {
 }
 
 inputs = {
-	env = "example-gkecluster-com"
+	env_name = "example-gkecluster-com"
 	node_pool_name = "example-gkecluster-com-nodepool"
 	project_id     = "example-gkecluster-com"
 	region		= "europe-west1"
